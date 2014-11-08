@@ -3,7 +3,7 @@ My_Website
 
 my small website for CV
 
-Copyright (C) 2014 Peng BAI <peng.bai@etu.univ-tours.fr, baipeng0811@gmail.com>
+Copyright (C) 2014 Peng BAI <peng.bai@etu.univ-tours.fr>, <baipeng0811@gmail.com>
 Polytech Tours, 37200 Tours, France. 
 
   This source code is free software: you can redistribute it and/or modify it under
