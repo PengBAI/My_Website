@@ -1,0 +1,239 @@
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #0c2635; 
+	margin: 0;
+}
+img {
+	border: 0;
+}
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	width: 960px;
+	margin: 0 auto;
+	padding: 40px 0;
+	position: relative;
+}
+
+/** Logo **/
+#logo {
+	display: block;
+	padding: 0 0 35px 20px;
+}
+
+/** Navigation **/
+#navigation {
+	background: url(../images/bg-menu-left-curve.gif) no-repeat left bottom;
+	height: 47px;
+	padding: 13px 0 0 4px;
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+}
+#navigation ul {
+	background: url(../images/bg-menu.gif) repeat-x;
+	display: inline-block;
+	height: 40px;
+	width: 955px;
+	list-style: none;
+	margin: 0;
+	padding: 4px 0 3px;
+}
+#navigation li {
+	float: left;
+	font-size: 16px;
+	line-height: 40px;
+	margin: 0 5px;
+	text-align: center;
+}
+#navigation a {
+	color: #092f44;
+	font-weight: bold;
+	padding: 0 10px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #eaeaea;
+}
+
+#navigation li.selected {
+	background-color: #b7c2c8;
+}
+#datetime {
+	color: #092f44;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 47px;
+	width: 100px;
+	position: absolute;
+	bottom: -25px;
+	right: 0;
+
+}
+
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	background: url(../images/bg-content.gif) repeat;
+	padding: 40px 0 20px;
+}
+
+/*------------------------------ page ------------------------------*/
+#contents .background {
+	background-color: #ffffff;
+	line-height: 20px;
+	min-height: 960px;
+	width: 920px;
+	border-radius: 3px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#contents .background h3 {
+	color: #0e2934;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+#contents .background p {
+	color: #646c6f;
+	font-size: 14px;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: justify;
+}
+#contents .background p a {
+	color: #0e2934;
+	font-weight: bold;
+	text-decoration: none;
+}
+#contents.background p b {
+	display: block;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+/*--------------------------contact input------------------------------------*/
+ #contents .background_contact {
+	background-color: #ffffff;
+	line-height: 20px;
+	min-height: 450px;
+	width: 920px;
+	border-radius: 3px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+input{
+	margin-bottom: 8px;
+}
+ 
+label.contact{
+	float:left;
+	width: 8%;
+	color: #0e2934;
+	font-weight: bold;
+}
+
+/*------------------------------accueil------------------------------------*/
+#images{
+	width:260px;
+	border:2px;
+	border-style:solid;
+	border-color:#0e2934;
+	background-color:#092f44;
+
+}
+ #contents .background_accueil {
+	background-color: #ffffff;
+	line-height: 20px;
+	min-height: 450px;
+	width: 920px;
+	border-radius: 3px;
+	margin: 0 auto;
+	padding: 20px;
+}
+#contentCV{
+	 
+	 float:right;
+	 width:60%;
+	 margin:-420px 50px 0 0;
+	 
+}
+ #contentCV p{
+	color: #646c6f;
+	font-size: 14px;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: justify;
+}
+/*---------------------------conseils--------------------------------------*/
+span{
+	font:100% Verdana, Arial, Helvetica, sans-serif;
+}
+h1 {
+	font:125% Arial, Helvetica, sans-serif; 
+	text-align:left; 
+	font-weight:bolder; 
+	padding:1px; 
+	display:block;
+}
+.class1 { 
+	background:#eaeaea;
+	width:90%; 
+	position:relative; 
+	margin:0 auto; 
+	padding:10px;
+}
+span.open { 
+	position:absolute; 
+	right:10px; 
+	top:35px; 
+	cursor:pointer; 
+}
+p#class1content { 
+	text-align:left; 
+	line-height:2px; 
+	padding:1px; 
+	margin-top:1px; 
+	color:#99CC00;
+	font:100% Verdana, Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	}
+p#class1content>span { 
+	color:#00008B;
+	}	
+#etc{
+	 display:none;
+}
+
+/*----------------------------------footer---------------------------------*/
+#footer {
+	color: #456f7f;
+	line-height: 20px;
+	width: 940px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+
+#footer section.contacts {
+	float: left;
+	font-size: 12px;
+	list-style: none;
+	width: 940px;
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+#footer span.footnote {
+	clear: both;
+	display: block;
+	font-size: 12px;
+	margin: 40px 0 0;
+	text-align: center;
+}
+
+#footer section.contacts  a {
+	color: #456f7f;
+	font-size: 15px;
+	text-decoration: none;
+}
+

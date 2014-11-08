@@ -1,0 +1,1 @@
+CREATE TABLE `cv2`.`contact` (`id_contact` INT NULL AUTO_INCREMENT PRIMARY KEY, `prenom_contact` VARCHAR(20) NOT NULL, `nom_contact` VARCHAR(20) NOT NULL, `mail_contact` VARCHAR(50) NOT NULL, `objet_contact` VARCHAR(20) NOT NULL, `message_contact` TEXT NOT NULL) ENGINE = InnoDB;

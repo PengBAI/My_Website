@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Contact</title>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />	
+</head>
+
+<body onload="clock()">
+	<header id="header">
+		<a href="accueil.html" id="logo"><img src="../images/logo.jpg" alt="LOGO" /></a>
+		<section id="navigation">
+			<ul>
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="conseils.html">Conseils</a></li>
+				<li class="selected"><a href="contact.html">Contact</a></li>
+			</ul>
+		</section>
+		<section id="datetime">
+			<span id="date"></span><br/>
+			<span id="time"></span>
+		</section>
+	</header> 
+	<section id="contents">
+		<section class="background_contact">
+			<h4>Merci de bien vouloir remplir le formulaire ci-dessous pour toute demande d'informations. </h4>
+			<form id="id_form_contact" name="nouveau_cv" action="../fonctions/nouvelle_contact_action.php" method="POST">
+				<label  class="contact" for="prenom"> Prénom:</label>
+					<input  type="text" name="prenom" id="prenom"><br/>
+				<label class="contact" for="nom" > Nom:</label>
+					<input  type="text" name="nom" id="nom"><br/>
+				<label class="contact" for="mail"> Mail:</label>
+					<input  type="email" name="mail" id="mail" required><br/>
+				<label class="contact" for="objet" >objet: </label> 
+					<select name="objet" id ="objet">
+						<option value="personnel">personnel</option>
+						<option value="professionnel">professionnel</option>
+						<option value="autre">autre</option>
+					</select><br/><br/>
+				<label class="contact" for="message"> Message:</label><br/>
+					<textarea rows="9" cols="30" name="message" id ="message"></textarea> <br/>
+					<input type="submit" value="Envoyer">
+			</form>
+		</section>
+	</section> 
+	<footer id="footer">
+		<script language="JavaScript" src="time.js"></script>
+		<section class="contacts">
+			<span>E-mail: 
+			&nbsp &nbsp <a href ="mailto:peng.bai@etu.univ-tours.fr">peng.bai@etu.univ-tours.fr</a>&nbsp &nbsp 
+			&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Address: <a href="http://polytech.univ-tours.fr">Polytech Tours, France </a></span>
+
+		</section>
+		<span class="footnote">&copy; Copyright &copy; 2013. All rights reserved</span>
+	</footer> 
+</body>
+</html>
